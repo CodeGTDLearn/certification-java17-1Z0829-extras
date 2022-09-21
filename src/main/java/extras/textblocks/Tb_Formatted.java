@@ -1,12 +1,10 @@
 package extras.textblocks;
 
 import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.Locale;
 
-public class FormattedTextblock {
+public class Tb_Formatted {
   public static void main(String[] args) {
 
     Locale locale = new Locale("fr", "FR");
