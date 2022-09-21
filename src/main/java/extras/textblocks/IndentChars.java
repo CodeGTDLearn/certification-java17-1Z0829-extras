@@ -1,6 +1,6 @@
 package extras.textblocks;
 
-public class Tb_IndentChars {
+public class IndentChars {
   public static void main(String[] args) {
 
     String option1 = "  a\n b\n";

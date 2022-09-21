@@ -1,6 +1,6 @@
 package extras.textblocks;
 
-public class Tb_SpecialChars {
+public class SpecialChars {
   public static void main(String[] args) {
 
     String joinNExtLine= """

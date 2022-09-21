@@ -8,26 +8,22 @@ public class YieldKey {
 
     result1 =
          switch (text) {
-           case "test1":
-             yield text + " expression yield 1";
-           case "test2":
-             yield text + " expression yield 2";
-           default:
-             yield text + " expression yield Others";
+           case "test1": yield " expression yield 1";
+           case "test2": yield " expression yield 2";
+           default     : yield " expression yield Others";
          };
     System.out.println(result1);
 
-    String text2 = "test5";
+    String text2 = "test1";
     var result2 =
          switch (text2) {
-           case "test1" -> text2 + " expression yield compound 1";
+           case "test1" -> {
+             final String exp = "expression";
+             var temp = " yield compound  2";
+             yield exp + temp;
+           }// Yield dispensa ";" no BLock-Code
 
-           case "test2" -> {
-             var temp = text2 + " expression yield compound  2";
-             yield temp;
-           }
-
-           default -> text2 + " expression yield compound  Others";
+           default -> text2 + " yield Others";
          };
     System.out.println(result2);
   }

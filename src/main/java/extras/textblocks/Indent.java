@@ -1,6 +1,6 @@
 package extras.textblocks;
 
-public class Tb_Indent {
+public class Indent {
   public static void main(String[] args) {
 
     String basicText = """
