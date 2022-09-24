@@ -14,5 +14,14 @@ public class ArrowKey {
 
       default -> System.out.println(text + " ArrowKey:  Others");
     }
+
+
+    double db = 4;
+    switch ((int) db) {
+      case 2 -> System.out.println(text + " primitive 2.1");
+      case 3 -> System.out.println(text + " primitive 2.5");
+
+      default -> System.out.println(text + " primitive 3.0");
+    }
   }
 }
