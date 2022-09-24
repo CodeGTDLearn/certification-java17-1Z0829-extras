@@ -1,4 +1,4 @@
-package extras.records;
+package extras.records.mutablity;
 
 import java.util.List;
 

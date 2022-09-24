@@ -1,4 +1,4 @@
-package extras.records;
+package extras.records.constructors;
 
 public record Constructor(String name, Integer price) {
   public Constructor(String name) {
@@ -11,9 +11,8 @@ public record Constructor(String name, Integer price) {
     this("OnlyPrice", price);
   }
 
-  public Constructor {
-
-    name = "NoArgs";
-    price = 5000;
+  public Constructor() {
+    this("NoArgs-with-predefined values",5000);
   }
+
 }

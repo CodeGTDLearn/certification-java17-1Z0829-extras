@@ -1,10 +1,10 @@
-package extras.records;
+package extras.records.constructors;
 
-public class ContructorTests {
+public class ConstructorTests {
   public static void main(String[] args) {
 
     System.out.println(new Constructor("AllArgs", 15));
-//    System.out.println(new Constructor);
+    System.out.println(new Constructor());
     System.out.println(new Constructor(12));
     Constructor recordName = new Constructor("onlyName");
     System.out.println(recordName);
