@@ -10,9 +10,7 @@ public class PreJava17 {
   public static void patternMatching (Object number){
 
     if( number instanceof Integer ){
-
       Integer matched_number = (Integer) number;
-
       show("MyInteger: " + matched_number);
     }
 

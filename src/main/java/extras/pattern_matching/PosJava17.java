@@ -10,7 +10,6 @@ public class PosJava17 {
   public static void patternMatching (Object number){
 
     if( number instanceof Integer     matched_number){
-
         show("MyInteger: " + matched_number);
     }
 
