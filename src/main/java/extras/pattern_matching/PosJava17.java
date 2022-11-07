@@ -13,12 +13,12 @@ public class PosJava17 {
         show("MyInteger: " + matched_number);
     }
 
-    if(number instanceof Double matching_igualado_number){
+    if(number instanceof Double      matching_igualado_number){
 //      Double matched_number = (Double) number;
       show("MyDouble: " + matching_igualado_number);
     }
 
-    if(number instanceof String matching_igualado_number){
+    if(number instanceof String     matching_igualado_number){
 //      String matched_number = (String) number;
       show("MyString: " + matching_igualado_number);
     }

@@ -7,6 +7,7 @@ public class Scopes {
     instanceOf_conditional_sameNames_differentBlockScopes(12);
     instanceOf_conditional_blockScope_violation(2.5);
     instanceOf_escopo_esticado_por_return(2.5);
+    instanceOf_escopo_esticado_por_return(222);
     false_conditional_anomally(2.5);
     instanceOf_escopo_esticado_por_return_patVarName_duplicity(2.5);
   }
@@ -23,8 +24,10 @@ public class Scopes {
     // COMPILE-ERROR
     // - PatterVar is created/used inside IF-BLOCK-SCOPE
     // - PatterVar CANNOT be outside IF-BLOCK-SCOPE
-    if (num instanceof Double  match2)
+    if (num instanceof Double   match2){
+      show("patVar2 Type: " +match2.getClass().getSimpleName());
       show("patVar2: " +  match2.intValue());
+    }
     //show("Double: " + match2.intValue()); // COMPILE-ERROR
   }
 
@@ -37,7 +40,9 @@ public class Scopes {
   //    - Estica o fluxo do scope(FlowScope), p/ fora do IF, chegando ate a linha debaixo,
   //    - Usando a patVar criada no IF-InstanceOf fora dele, EXECUTING o show+intValue
   //    - Compiler has 100% certainty there will be a Double in lastLine(out block-scope, in FlowScope)
-    if (!(num instanceof Double  scopeEpatVarEsticados_praForaDo_IFBlockScope))  return;
+    if (!(num instanceof Double  scopeEpatVarEsticados_praForaDo_IFBlockScope)) {
+            return;
+    }
     show("patVar_3_1: " + scopeEpatVarEsticados_praForaDo_IFBlockScope.intValue());
   }
 
@@ -68,4 +73,5 @@ public class Scopes {
 
     System.out.println(text);
   }
+
 }
