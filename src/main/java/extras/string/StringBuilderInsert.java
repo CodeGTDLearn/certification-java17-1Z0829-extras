@@ -1,6 +1,6 @@
 package extras.string;
 
-public class StringBuilderDemo {
+public class StringBuilderInsert {
 
   public static void main(String[] args) {
 
