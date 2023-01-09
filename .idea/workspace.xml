@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf99f40b-5ac3-4969-a587-8ba0c6bd56bb" name="Changes" comment="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pointer Call By Sharing in JAva&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <change afterPath="$PROJECT_DIR$/src/main/java/extras/records/constructors/CompactVersion2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/extras/records/constructors/Compact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extras/records/constructors/CompactVersion1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/extras/records/constructors/CompactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extras/records/constructors/CompactVersionsTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/extras/switches/Expression.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/extras/switches/YieldKey.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showToolbar" value="false" />
+  </component>
+  <component name="ProjectId" id="2F59M9aIa5QvGNzCPWByingPEzd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;ToolWindowProblems.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SERVIDOR/Projects/certification-java17-1Z0829-extras/src/main/java/extras/sealed_class/class_interface&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="extras.sealed_class.advanced" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SERVIDOR\Projects\certification-java17-1Z0829-extras\src\main\java\extras\sealed_class\class_interface" />
+      <recent name="C:\Users\SERVIDOR\Projects\certification-java17-1Z0829-extras\src\main\java\extras\sealed_class\advanced" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SERVIDOR\Projects\certification-java17-1Z0829-extras\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="extras.sealed_class.interfaces" />
+      <recent name="extras.sealed_class.advanced" />
+      <recent name="extras.records.constructors" />
+      <recent name="extras.records" />
+      <recent name="extras.pattern_matching" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CompactVersionsTests">
+    <configuration name="CompactVersionsTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extras.records.constructors.CompactVersionsTests" />
+      <module name="certification-java17-1Z0829-extras" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extras.records.constructors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conditionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extras.pattern_matching.Conditionals" />
+      <module name="certification-java17-1Z0829-extras" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extras.pattern_matching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectsCallBySharing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extras.string.ObjectsCallBySharing" />
+      <module name="certification-java17-1Z0829-extras" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extras.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extras.pattern_matching.Scopes" />
+      <module name="certification-java17-1Z0829-extras" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extras.pattern_matching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBuilderInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extras.string.StringBuilderInsert" />
+      <module name="certification-java17-1Z0829-extras" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extras.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CompactVersionsTests" />
+        <item itemvalue="Application.ObjectsCallBySharing" />
+        <item itemvalue="Application.StringBuilderInsert" />
+        <item itemvalue="Application.Conditionals" />
+        <item itemvalue="Application.Scopes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf99f40b-5ac3-4969-a587-8ba0c6bd56bb" name="Changes" comment="" />
+      <created>1663771029170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663771029170</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Creating the project&#10;adding VCS support&#10;&#10;-&gt; WORKING:&#10;Textblocks&#10;&#10;-&gt; NEXT STEPS:&#10;Switch Expressions&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes&#10;Records&#10;Pattern Matching">
+      <created>1663771308632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663771308632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Textblocks&#10;&#10;-&gt; WORKING:&#10;Switch Expressions&#10;&#10;-&gt; NEXT STEPS:&#10;Pattern Matching&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes&#10;Records">
+      <created>1663779905964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663779905964</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Textblocks&#10;Switch Expressions&#10;&#10;-&gt; WORKING:&#10;Switch Expressions - word&#10;&#10;-&gt; NEXT STEPS:&#10;Pattern Matching&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes&#10;Records">
+      <created>1663790976899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663790976899</updated>
+    </task>
+    <task id="LOCAL-00004" summary="4.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pattern Matching&#10;&#10;-&gt; WORKING:&#10;Pattern Matching - word&#10;&#10;-&gt; NEXT STEPS:&#10;Records&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes">
+      <created>1663890148387</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663890148387</updated>
+    </task>
+    <task id="LOCAL-00005" summary="5.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pattern Matching&#10;&#10;-&gt; WORKING:&#10;Pattern Matching - word&#10;&#10;-&gt; NEXT STEPS:&#10;Records&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes">
+      <created>1663890184130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663890184130</updated>
+    </task>
+    <task id="LOCAL-00006" summary="6.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pattern Matching - word&#10;&#10;-&gt; WORKING:&#10;Records&#10;&#10;-&gt; NEXT STEPS:&#10;Sealed Classes&#10;jdbc transactions&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1663951987002</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663951987002</updated>
+    </task>
+    <task id="LOCAL-00007" summary="7.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records&#10;&#10;-&gt; WORKING:&#10;Records - Compact Constructor&#10;&#10;-&gt; NEXT STEPS:&#10;Sealed Classes&#10;jdbc transactions&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1663972976628</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663972976628</updated>
+    </task>
+    <task id="LOCAL-00008" summary="7.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records&#10;&#10;-&gt; WORKING:&#10;Records - Compact Constructor&#10;&#10;-&gt; NEXT STEPS:&#10;Sealed Classes&#10;jdbc transactions&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1664030601437</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664030601437</updated>
+    </task>
+    <task id="LOCAL-00009" summary="8.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;&#10;-&gt; WORKING:&#10;Sealed Classes&#10;&#10;-&gt; NEXT STEPS:&#10;jdbc transactions&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1664034428903</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664034428903</updated>
+    </task>
+    <task id="LOCAL-00010" summary="8.1) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;Sealed Classes - working&#10;&#10;-&gt; NEXT STEPS:&#10;jdbc transactions&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1664039878741</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664039878741</updated>
+    </task>
+    <task id="LOCAL-00011" summary="8.1) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;jdbc transactions&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1664054443729</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664054443729</updated>
+    </task>
+    <task id="LOCAL-00012" summary="8.1) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;jdbc transactions&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1664292376495</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664292376495</updated>
+    </task>
+    <task id="LOCAL-00013" summary="8.1) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;jdbc transactions&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1664985963159</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664985963159</updated>
+    </task>
+    <task id="LOCAL-00014" summary="8.1) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;jdbc transactions&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1665082202291</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665082202291</updated>
+    </task>
+    <task id="LOCAL-00015" summary="8.1) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;jdbc transactions&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1665082505918</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665082505918</updated>
+    </task>
+    <task id="LOCAL-00016" summary="8.2) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Canonicals Constructors&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1665084722749</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665084722749</updated>
+    </task>
+    <task id="LOCAL-00017" summary="8.2) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Canonicals Constructors&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1666036552253</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666036552253</updated>
+    </task>
+    <task id="LOCAL-00018" summary="8.3) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Canonicals Constructors&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1667582491172</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667582491172</updated>
+    </task>
+    <task id="LOCAL-00019" summary="8.4) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Custom Accessors&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1667859300063</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667859300064</updated>
+    </task>
+    <task id="LOCAL-00020" summary="8.4) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Custom Accessors&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1669154806544</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669154806544</updated>
+    </task>
+    <task id="LOCAL-00021" summary="8.4) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Custom Accessors&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1669154916598</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1669154916598</updated>
+    </task>
+    <task id="LOCAL-00022" summary="8.4) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Custom Accessors&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1669155063516</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1669155063516</updated>
+    </task>
+    <task id="LOCAL-00023" summary="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;StringBuilder&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1669323290212</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1669323290212</updated>
+    </task>
+    <task id="LOCAL-00024" summary="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pointer Call By Sharing in JAva&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1669393185386</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669393185386</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Creating the project&#10;adding VCS support&#10;&#10;-&gt; WORKING:&#10;Textblocks&#10;&#10;-&gt; NEXT STEPS:&#10;Switch Expressions&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes&#10;Records&#10;Pattern Matching" />
+    <MESSAGE value="2.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Textblocks&#10;&#10;-&gt; WORKING:&#10;Switch Expressions&#10;&#10;-&gt; NEXT STEPS:&#10;Pattern Matching&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes&#10;Records" />
+    <MESSAGE value="3.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Textblocks&#10;Switch Expressions&#10;&#10;-&gt; WORKING:&#10;Switch Expressions - word&#10;&#10;-&gt; NEXT STEPS:&#10;Pattern Matching&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes&#10;Records" />
+    <MESSAGE value="4.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pattern Matching&#10;&#10;-&gt; WORKING:&#10;Pattern Matching - word&#10;&#10;-&gt; NEXT STEPS:&#10;Records&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes" />
+    <MESSAGE value="5.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pattern Matching&#10;&#10;-&gt; WORKING:&#10;Pattern Matching - word&#10;&#10;-&gt; NEXT STEPS:&#10;Records&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Sealed Classes" />
+    <MESSAGE value="6.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pattern Matching - word&#10;&#10;-&gt; WORKING:&#10;Records&#10;&#10;-&gt; NEXT STEPS:&#10;Sealed Classes&#10;jdbc transactions&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="7.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records&#10;&#10;-&gt; WORKING:&#10;Records - Compact Constructor&#10;&#10;-&gt; NEXT STEPS:&#10;Sealed Classes&#10;jdbc transactions&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="8.0) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;&#10;-&gt; WORKING:&#10;Sealed Classes&#10;&#10;-&gt; NEXT STEPS:&#10;jdbc transactions&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="8.1) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;Sealed Classes - working&#10;&#10;-&gt; NEXT STEPS:&#10;jdbc transactions&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="8.1) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Compact Constructor&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;jdbc transactions&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;Modules Runtime Images&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="8.2) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Canonicals Constructors&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="8.3) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Canonicals Constructors&#10;Sealed Classes&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="8.4) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Custom Accessors&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;StringBuilder&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pointer Call By Sharing in JAva&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pointer Call By Sharing in JAva&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+  </component>
+</project>
