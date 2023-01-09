@@ -7,11 +7,12 @@ package extras.records.constructors;
   ║- MODIFY/VALIDATE INPUTS GIVEN FOR THE ║
   ║   DEFAULT-ALL-ARGS-CONSTRUCTOR        ║
   ╚═══════════════════════════════════════╝*/
-public record Compact(String name, Integer price) {
+public record CompactVersion2(String name, Integer price) {
 
-  public Compact   {
-     price += 500;
-    name = "Changed by Compact-Constructor: " + name;
+  public CompactVersion2 {
+
+   //  this.price += 500; // Compile-Error
+    name = "CompactVersion2: " + name;
   }
 
 }
