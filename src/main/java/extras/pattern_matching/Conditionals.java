@@ -38,8 +38,8 @@ public class Conditionals {
 
     System.out.println(text);
   }
-  
-//  private static void testOr(Object number) {
+
+  //  private static void testOr(Object number) {
 //    // Compiler does not allow
 //    // Compiler CANNOT know what type will be the PatVar 'matched'
 //    if (number instanceof String matched || matched.length() > 2) {

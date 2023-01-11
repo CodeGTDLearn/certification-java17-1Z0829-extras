@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf99f40b-5ac3-4969-a587-8ba0c6bd56bb" name="Changes" comment="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pointer Call By Sharing in JAva&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
-      <change afterPath="$PROJECT_DIR$/src/main/java/extras/records/constructors/CompactVersion2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/extras/records/constructors/Compact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extras/records/constructors/CompactVersion1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/extras/records/constructors/CompactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extras/records/constructors/CompactVersionsTests.java" afterDir="false" />
+    <list default="true" id="cf99f40b-5ac3-4969-a587-8ba0c6bd56bb" name="Changes" comment="10) Java Extras&#10;&#10;-&gt; CONCLUDED:&#10;pattern_matching&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <change beforePath="$PROJECT_DIR$/src/main/java/extras/pattern_matching/Scopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extras/pattern_matching/Scopes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +81,14 @@
       <recent name="C:\Users\SERVIDOR\Projects\certification-java17-1Z0829-extras\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="extras.records.constructors" />
       <recent name="extras.sealed_class.interfaces" />
       <recent name="extras.sealed_class.advanced" />
-      <recent name="extras.records.constructors" />
       <recent name="extras.records" />
       <recent name="extras.pattern_matching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompactVersionsTests">
+  <component name="RunManager" selected="Application.Scopes">
     <configuration name="CompactVersionsTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="extras.records.constructors.CompactVersionsTests" />
       <module name="certification-java17-1Z0829-extras" />
@@ -158,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scopes" />
         <item itemvalue="Application.CompactVersionsTests" />
         <item itemvalue="Application.ObjectsCallBySharing" />
         <item itemvalue="Application.StringBuilderInsert" />
         <item itemvalue="Application.Conditionals" />
-        <item itemvalue="Application.Scopes" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +341,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669393185386</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="9) Java Extras&#10;&#10;-&gt; CONCLUDED:&#10;Record - Canonical Constructor&#10;Record - Compact Canonical Constructor&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1673282398045</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1673282398045</updated>
+    </task>
+    <task id="LOCAL-00026" summary="10) Java Extras&#10;&#10;-&gt; CONCLUDED:&#10;pattern_matching&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1673459325047</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1673459325047</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,6 +391,9 @@
     <MESSAGE value="8.4) Java 17 Extras&#10;&#10;-&gt; CONCLUDED:&#10;Records - Custom Accessors&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
     <MESSAGE value="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;StringBuilder&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
     <MESSAGE value="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pointer Call By Sharing in JAva&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.5) Java  Extras&#10;&#10;-&gt; CONCLUDED:&#10;Pointer Call By Sharing in JAva&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="9) Java Extras&#10;&#10;-&gt; CONCLUDED:&#10;Record - Canonical Constructor&#10;Record - Compact Canonical Constructor&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="9) Java Extras&#10;&#10;-&gt; CONCLUDED:&#10;Record - Canonical Constructor&#10;Record - Compact Canonical Constructor&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="10) Java Extras&#10;&#10;-&gt; CONCLUDED:&#10;pattern_matching&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <option name="LAST_COMMIT_MESSAGE" value="10) Java Extras&#10;&#10;-&gt; CONCLUDED:&#10;pattern_matching&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
   </component>
 </project>
