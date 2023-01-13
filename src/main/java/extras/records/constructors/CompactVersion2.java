@@ -11,7 +11,7 @@ public record CompactVersion2(String name, Integer price) {
 
   public CompactVersion2 {
 
-   //  this.price += 500; // Compile-Error
+   //  this.price += 500; // Compile-Error - not accept this
     name = "CompactVersion2: " + name;
   }
 

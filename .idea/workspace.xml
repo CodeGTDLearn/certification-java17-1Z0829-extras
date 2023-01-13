@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf99f40b-5ac3-4969-a587-8ba0c6bd56bb" name="Changes" comment="10) Java Extras&#10;&#10;-&gt; CONCLUDED:&#10;pattern_matching&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
-      <change beforePath="$PROJECT_DIR$/src/main/java/extras/pattern_matching/Scopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extras/pattern_matching/Scopes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/extras/sealed_class/more_examples/Readable_example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/extras/sealed_class/Readable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extras/sealed_class/more_examples/Readable_example1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
