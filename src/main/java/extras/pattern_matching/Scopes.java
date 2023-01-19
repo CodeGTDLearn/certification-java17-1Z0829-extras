@@ -1,5 +1,6 @@
 package extras.pattern_matching;
 
+
 public class Scopes {
   public static void main(String[] args) {
 
@@ -11,7 +12,7 @@ public class Scopes {
     //    false_conditional_anomally(2.5);
     //    instanceOf_escopo_esticado_por_return_patVarName_duplicity(2.5);
     instanceOf_patternVar_type(2.5);
-//    instanceOf_patternVar_type(1);
+    //    instanceOf_patternVar_type(1);
   }
 
   public static void instanceOf_conditional_sameNames_differentBlockScopes(Object num) {
@@ -46,10 +47,17 @@ public class Scopes {
     }
 
     if (! (num instanceof Integer patVarNotCreated)) {
-      show("num Type: " + num.getClass().getSimpleName());
+      show("num - NOT BEING A INTEGER INSTANCE - Type: " + num.getClass()
+                                                              .getSimpleName());
 
-//      exampleVariableNotCreated;
-//      show("patVar: " + patVarNotCreated.getClass().getSimpleName());
+      /*╔══════════════════════════════════════════════════════════════════╗
+        ║                       PatternVar CREATING                        ║
+        ╠══════════════════════════════════════════════════════════════════╣
+        ║ PatternVar ONLY IS CREATED IF, AND ONLY IF, 'instanceOf' is TRUE ║
+        ║        'instanceOf' is TRUE (ex: num instanceof Integer)         ║
+        ╚══════════════════════════════════════════════════════════════════╝*/
+      //      show("patVar: " + patVarNotCreated.getClass()
+      //                                        .getSimpleName());
     }
   }
 
@@ -60,9 +68,12 @@ public class Scopes {
     //  * isn't 'Double': END Code using "Return" do Loop (nao exec o show+intValue abaixo)
     //  * is    'Double':
     //    - Estica o fluxo do scope(FlowScope), p/ fora do IF, chegando ate a linha debaixo,
-    //    - Usando a patVar criada no IF-InstanceOf fora dele, EXECUTING o show+intValue
-    //    - Compiler has 100% certainty there will be a Double in lastLine(out block-scope, in
-    //    FlowScope)
+    /*╔══════════════════════════════════════════════════════╗
+      ║ EXCESSAO DA REGRA DE CRIACAO DA PATTERN_VAR_MATHCING ║
+      ╠══════════════════════════════════════════════════════╣
+      ║      COMPILADOR TEM CERTEZA, QUE A PARTERN-VAR       ║
+      ║               SERA DE TIPO CORRETO                   ║
+      ╚══════════════════════════════════════════════════════╝*/
     if (! (num instanceof Double scopeEpatVarEsticados_praForaDo_IFBlockScope)) {
       return;
     }
@@ -90,6 +101,55 @@ public class Scopes {
     show("scope-esticado-duplic: " + first_scope_name.intValue());
     //if (num instanceof Double first_scope_name)
     show("scope-esticado-duplic: " + first_scope_name.intValue());
+  }
+
+  public static void flowScopeWithIfStatement1(Object num) {
+    var v = 0;
+    if (num instanceof Double isDouble) {
+      // Flow-Scope - instanceof MUST be TRUE:
+      // Compiler is '100% sure' "isDouble"(Pattern-Var)
+      // was created, as a Double
+      v = isDouble.intValue(); // Here, Flow-Scope
+
+    } else {
+      // Flow-Scope - instanceof is FALSE:
+      // Compiler is not '100% sure' that "isDouble"
+      // was created, as a Double
+      //v = isDouble.intValue(); // Compile-Error
+    }
+  }
+
+  public static void flowScopeWithIfStatement2(Object s) {
+    var v = 0;
+
+    // Short-Circuit:  &&
+    // str.length()>0  ONLY will be checked if instanceof is TRUE
+    if( s instanceof String str && str.length()>0) {
+      // Flow-Scope - instanceof MUST be TRUE:
+      // Compiler is '100% sure' "str"(Pattern-Var)
+      // was created, as a Double
+      v = str.codePointAt(0); // Here, Flow-Scope
+
+    } else {
+      // Flow-Scope - instanceof is FALSE:
+      // Compiler is not '100% sure' that "str"
+      // was created, as a "String"
+      //v = isDouble.intValue(); // Compile-Error
+    }
+  }
+
+  public static void flowScopeWithIfStatement3(Object s) {
+    var v = 0;
+
+    // Simple &
+    // str.length()>0 will be checked if instanceof is TRUE or FALSE
+//    if( s instanceof String str & str.length()>0) {
+      // Flow-Scope - instanceof MUST be TRUE:
+      // Compiler is '100% sure' "str"(Pattern-Var)
+      // was created, as a Double
+//      v = str.codePointAt(0); // Here, Flow-Scope
+
+//    }
   }
 
   private static void show(String text) {

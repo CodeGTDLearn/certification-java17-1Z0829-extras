@@ -4,5 +4,6 @@ public class CompactVersionsTests {
   public static void main(String[] args) {
     System.out.println(new CompactVersion1("CompactVersion1Args", 11));
     System.out.println(new CompactVersion2("CompactVersion2Args", 20));
+    System.out.println(new CompactVersion3("CompactVersion3Args", 30));
   }
 }
