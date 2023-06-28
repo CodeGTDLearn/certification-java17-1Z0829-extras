@@ -37,11 +37,8 @@ public class Flow_Scope {
       ║ ERRO DE COMPILACAO - A "flow_scope_var"[PAtternVar] esta       ║
       ║                INDEFINIDAMENTE NO ESCOPO                       ║
       ╚════════════════════════════════════════════════════════════════╝*/
-    
-    
-    
     // if (num instanceof Double flow_scope_var) - COMPILE-ERROR: flow_scope_var already defined
-    // Double flow_scope_var; - COMPILE-ERROR: flow_scope_var already defined
+    // Double flow_scope_var;                    - COMPILE-ERROR: flow_scope_var already defined
   }
 
   public static void flowScopeWithIfStatement1(Object num) {
