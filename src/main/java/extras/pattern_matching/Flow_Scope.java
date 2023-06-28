@@ -30,6 +30,16 @@ public class Flow_Scope {
     show("simulation of code ");
     show("simulation of code ");
     show("scope-esticado-duplic: " + flow_scope_var.intValue());
+
+    /*╔════════════════════════════════════════════════════════════════╗
+      ║ TENTAR CRIAR UM VARIAVEL COM O MESMO DE NOME DA flow_scope_var ║
+      ╠════════════════════════════════════════════════════════════════╣
+      ║ ERRO DE COMPILACAO - A "flow_scope_var"[PAtternVar] esta       ║
+      ║                INDEFINIDAMENTE NO ESCOPO                       ║
+      ╚════════════════════════════════════════════════════════════════╝*/
+    
+    
+    
     // if (num instanceof Double flow_scope_var) - COMPILE-ERROR: flow_scope_var already defined
     // Double flow_scope_var; - COMPILE-ERROR: flow_scope_var already defined
   }
