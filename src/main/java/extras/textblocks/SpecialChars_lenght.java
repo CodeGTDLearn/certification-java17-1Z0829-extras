@@ -27,24 +27,32 @@ public class SpecialChars_lenght {
     out.println(next_implic_4);
 //-----------------------------------------------------------------------------
 
-    String trailing_single_10 = """
+    // '/n' is implicity resulting in 6
+    String trailing_singleSpace_6 = """
+         1\s\s\s
+         2""";
+    sout("trailing_singleSpace_6", valueOf(trailing_singleSpace_6.length()));
+    out.println(trailing_singleSpace_6);
+
+    // '/n' is implicity resulting in 10
+    String trailing_singleSpace_10 = """
          1      \s
          2""";
-    sout("trailing_single_10", valueOf(trailing_single_10.length()));
-    out.println(trailing_single_10);
+    sout("trailing_singleSpace_10", valueOf(trailing_singleSpace_10.length()));
+    out.println(trailing_singleSpace_10);
 //-----------------------------------------------------------------------------
 
-    String tab_single_4 = """
+    String tab_4 = """
          1\t
          2""";
-    sout("tab_single_4", valueOf(tab_single_4.length()));
-    out.println(tab_single_4);
+    sout("tab_4", valueOf(tab_4.length()));
+    out.println(tab_4);
 
-    String trailing_tab_single_6 = """
-         1 \t\t
+    String trailing_tab_single_7 = """
+         1  \t\t
          2""";
-    sout("trailing_tab_single_6", valueOf(trailing_tab_single_6.length()));
-    out.println(trailing_tab_single_6);
+    sout("trailing_tab_single_7", valueOf(trailing_tab_single_7.length()));
+    out.println(trailing_tab_single_7);
   }
 
   private static void sout(String... text) {
