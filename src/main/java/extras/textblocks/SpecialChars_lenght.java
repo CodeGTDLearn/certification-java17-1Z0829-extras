@@ -32,12 +32,12 @@ public class SpecialChars_lenght {
     sout("trailing_singleSpace_6", valueOf(trailing_singleSpace_6.length()));
     out.println(trailing_singleSpace_6 + "\n---------------------------------");
 
-    // '/n' is implicity resulting in 10
-    String trailing_singleSpace_10 = """
-         1      \s
+    // '/n' is implicity resulting in 7
+    String trailing_singleSpace_7 = """
+         1   \s
          2""";
-    sout("trailing_singleSpace_10", valueOf(trailing_singleSpace_10.length()));
-    out.println(trailing_singleSpace_10 + "\n---------------------------------");
+    sout("trailing_singleSpace_7", valueOf(trailing_singleSpace_7.length()));
+    out.println(trailing_singleSpace_7 + "\n---------------------------------");
 
     String tab_4 = """
          1\t
